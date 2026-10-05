@@ -1,0 +1,22 @@
+{
+  "name": "developer-portfolio-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A high-performance modern developer portfolio template featuring 3D Infinite Spiral carousel, celestial tech galaxy canvas, and Lenis smooth scrolling.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lenis": "^1.1.20",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1"
+  }
+}

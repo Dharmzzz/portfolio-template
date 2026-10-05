@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 — Page Not Found</title>
+    <!-- Redirect GitHub Pages routing back to root SPA router -->
+    <script>
+      sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;URL='/'" />
+    <style>
+      body {
+        margin: 0;
+        background: #040c18;
+        color: #e8f4ff;
+        font-family: system-ui, -apple-system, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+      h1 { font-size: 3rem; margin: 0; color: #38bdf8; }
+      p { color: #7b9fc7; font-size: 1.1rem; }
+    </style>
+  </head>
+  <body>
+    <h1>404</h1>
+    <p>Navigating back to the portfolio universe...</p>
+  </body>
+</html>

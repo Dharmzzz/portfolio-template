@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# EDIT: Replace with your actual deployed website domain
+Sitemap: https://yourusername.github.io/sitemap.xml
